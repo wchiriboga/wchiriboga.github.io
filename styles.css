@@ -1,0 +1,34 @@
+* { 
+    border: 0px solid black;
+}
+
+body {
+    background: #000738;
+}
+
+header {
+    background-color: midnightblue;
+    text-align: center;
+    color: white;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    color: white;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 18px;
+    font-weight:bolder;
+
+}
+
+.movie_cover {
+    width: 236.25px; 
+    height: 350px;
+}
+
+.movie_trailer {
+    width: 560px; 
+    height: 315px
+}
