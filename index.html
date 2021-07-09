@@ -15,7 +15,7 @@
 
         <!--banner-->
         <main>
-            <div class="jumbotron">
+            <div id="jumbotron">
                 <h1>Greatest Movies</h1>
             </div>
         </main>
@@ -24,11 +24,11 @@
             function changeBg() {
 
                 const images = [
-                    'url("jumbotron/django.jpeg")',
-                    'url("jumbotron/interstellar.jpeg")',
+                    'url("./jumbotron/django.jpeg")',
+                    'url("./jumbotron/interstellar.jpeg")',
                 ]
 
-                const jumbotron = document.querySelector('jumbotron')
+                const jumbotron = document.getElementById('jumbotron')
                 const bg = images[Math.floor(Math.random() * images.length)];
                 
                 jumbotron.style.background = bg;
