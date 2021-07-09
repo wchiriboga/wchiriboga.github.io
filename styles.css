@@ -1,15 +1,39 @@
-* { 
-    border: 0px solid black;
-}
+/* * { 
+    border: 1px solid white;
+}*/
 
-body {
-    background: #000738;
+html body {
+    background: Black;
+    margin: 0;
+    padding: 0;
 }
-
 header {
-    background-color: midnightblue;
     text-align: center;
     color: white;
+    background-color: black;
+}
+
+main {
+    text-align: center;
+    height: 100%;
+}
+
+main h1 {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 150px;
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+    position: relative;
+    top: 15%;
+}
+
+.jumbotron {
+    background: url(jumbotron/django.jpeg);    
+    box-sizing: border-box;
+    width: 100%;
+    height: 864px;
 }
 
 table {
@@ -20,6 +44,7 @@ table {
     font-family: Roboto, Arial, sans-serif;
     font-size: 18px;
     font-weight:bolder;
+    
 
 }
 

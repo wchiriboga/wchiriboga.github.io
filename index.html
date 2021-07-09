@@ -2,14 +2,41 @@
 <html>
     <head>
         <title>My All Time Favorite Movies</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
         <link href="styles.css" type="text/css" rel="stylesheet">
     </head>
 
     <body>
         <header>
-            <h1>Top 10 Favorite Movies</h1>
+            <h2>William Chiriboga</h2>
         </header>
-        
+
+        <!--banner-->
+        <main>
+            <div class="jumbotron">
+                <h1>Greatest Movies</h1>
+            </div>
+        </main>
+
+        <script>
+            function changeBg() {
+
+                const images = [
+                    'url("jumbotron/django.jpeg")',
+                    'url("jumbotron/interstellar.jpeg")',
+                ]
+
+                const jumbotron = document.querySelector('jumbotron')
+                const bg = images[Math.floor(Math.random() * images.length)];
+                
+                jumbotron.style.background = bg;
+                setInterval(changeBg,1000)
+
+            }
+        </script>
+        <!--movies-->
         <table>
             <thead>
                 <tr>
