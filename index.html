@@ -20,24 +20,72 @@
             </div>
         </main>
 
-        <script>
+        <script language="JavaScript">
             function changeBg() {
 
                 const images = [
-                    'url("./jumbotron/django.jpeg")',
-                    'url("./jumbotron/interstellar.jpeg")',
+                    'url("jumbotron/django.jpeg")',
+                    'url("jumbotron/interstellar.jpeg")',
                 ]
 
                 const jumbotron = document.getElementById('jumbotron')
                 const bg = images[Math.floor(Math.random() * images.length)];
                 
-                jumbotron.style.background = bg;
+                jumbotron.style.backgroundImage = bg;
                 setInterval(changeBg,1000)
 
             }
         </script>
         <!--movies-->
-        <table>
+
+        <!--interstellar-->
+        <div class="movie_info">
+            <img class="movie_cover" src="./Movie Covers/Interstellar.jpeg">
+            <div class="blurb">
+                <h1 class="title">Interstellar</h1>
+                <h2 class="director">Christopher Nolan</h2>
+                <h2 class="genre">Science Fiction</h2>
+                <h2 class="year">2014</h2>
+            </div>
+        </div>
+        <!--django unchained-->
+        <img class="movie_cover" src="Movie Covers/Django Unchained.jpeg">
+        <h2>Django Unchained</h2>
+
+        <!-- the dark knight-->
+        <img class="movie_cover" src="./Movie Covers/The Dark Knight.jpeg">
+        <h2>The Dark Knight</h2>
+
+        <!--goodfellas-->
+        <img class="movie_cover" src="./Movie Covers/Goodfellas.jpeg">
+        <h2>Goodfellas</h2>
+
+        <!--goodfellas-->
+        <img class="movie_cover" src="./Movie Covers/The Wolf of Wall Street.jpeg">
+        <h2>The Wolf of Wall Street</h2>
+
+        <!--the master-->
+        <img class="movie_cover" src="./Movie Covers/The Master.jpeg">
+        <h2>The Master</h2>
+
+        <!--no country for old men-->
+        <img class="movie_cover" src="./Movie Covers/No Country For Old Men.jpeg">
+        <h2>No Country For Old Men</h2>
+
+        <!--ford v ferrari-->
+        <img class="movie_cover" src="./Movie Covers/Ford v Ferrari.jpeg">
+        <h2>Ford v Ferrari</h2>
+
+        <!--spider-man: into the spiderverse-->
+        <img class="movie_cover" src="./Movie Covers/Spider-Man: Into the Spider-Verse.jpeg">
+        <h2>Spider-Man: Into the Spider-Verse</h2>
+
+        <!--inglorious basterds-->
+        <img class="movie_cover" src="./Movie Covers/Inglorious Basterds.jpeg">
+        <h2>Inglorious Basterds</h2>
+
+
+        <!-- <table>
             <thead>
                 <tr>
                     <th colspan="5">Movies</th>
@@ -144,7 +192,7 @@
                     </td>
                 </tr>
             </tbody>
-        </table>
+        </table>-->
 
     </body>
 </html>
