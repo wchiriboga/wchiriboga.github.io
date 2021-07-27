@@ -6,6 +6,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
         <link href="styles.css" type="text/css" rel="stylesheet">
+        
     </head>
 
     <body>
@@ -20,71 +21,138 @@
             </div>
         </main>
 
-        <script language="JavaScript">
-            function changeBg() {
-
-                const images = [
-                    'url("jumbotron/django.jpeg")',
-                    'url("jumbotron/interstellar.jpeg")',
-                ]
-
-                const jumbotron = document.getElementById('jumbotron')
-                const bg = images[Math.floor(Math.random() * images.length)];
-                
-                jumbotron.style.backgroundImage = bg;
-                setInterval(changeBg,1000)
-
-            }
-        </script>
         <!--movies-->
 
-        <!--interstellar-->
-        <div class="movie_info">
-            <img class="movie_cover" src="./Movie Covers/Interstellar.jpeg">
-            <div class="blurb">
-                <h1 class="title">Interstellar</h1>
-                <h2 class="director">Christopher Nolan</h2>
-                <h2 class="genre">Science Fiction</h2>
-                <h2 class="year">2014</h2>
-            </div>
-        </div>
-        <!--django unchained-->
-        <img class="movie_cover" src="Movie Covers/Django Unchained.jpeg">
-        <h2>Django Unchained</h2>
+        <section class="movies">
+            <div class="container">
+                <!--interstellar-->
+                <div class="movie_info">
+                    <img class="movie_cover" src="./Movie Covers/Interstellar.jpeg">
+                    <div class="blurb">
+                        <ul>
+                            <li>Interstellar</li>
+                            <li>Christopher Nolan</li>
+                            <li>Science Fiction</li>
+                            <li>2014</li>
+                        </ul>
+                    </div>
+                </div>
+                <!--django unchained-->
+                <div class="movie_info">
+                    <img class="movie_cover" src="Movie Covers/Django Unchained.jpeg">
+                    <div class="blurb">
+                        <ul>
+                            <li>Django Unchained</li>
+                            <li>Quentin Tarantino</li>
+                            <li>Western/Action</li>
+                            <li>2012</li>
+                        </ul> 
+                    </div>
+                </div>
+                <!-- the dark knight-->
+                <div class="movie_info">
+                    <img class="movie_cover" src="./Movie Covers/The Dark Knight.jpeg">
+                    <div class="blurb">
+                        <ul>
+                            <li>The Dark Knight</li>
+                            <li>Christopher Nolan</li>
+                            <li>Superhero/Action/Adventure</li>
+                            <li>2008</li>
+                        </ul> 
+                    </div>
+                </div>
+                <!--goodfellas-->
+                <div class="movie_info">
+                    <img class="movie_cover" src="./Movie Covers/Goodfellas.jpeg">
+                    <div class="blurb">
+                        <ul>
+                            <li>Goodfellas</li>
+                            <li>Martin Scorsese</li>
+                            <li>Crime/Drama</li>
+                            <li>1990</li>
+                        </ul> 
+                    </div>
+                </div>
 
-        <!-- the dark knight-->
-        <img class="movie_cover" src="./Movie Covers/The Dark Knight.jpeg">
-        <h2>The Dark Knight</h2>
+                <!--the wolf of wall street-->
+                <div class="movie_info">
+                    <img class="movie_cover" src="./Movie Covers/The Wolf of Wall Street.jpeg">
+                    <div class="blurb">
+                        <ul>
+                            <li>The Wolf of Wall Street</li>
+                            <li>Martin Scorsese</li>
+                            <li>Comedy/Crime</li>
+                            <li>2013</li>
+                        </ul> 
+                    </div>
+                </div>
+                <!--the master-->
+                <div class="movie_info">
+                    <img class="movie_cover" src="./Movie Covers/The Master.jpeg">
+                    <div class="blurb">
+                        <ul>
+                            <li>The Master</li>
+                            <li>Paul Thomas Anderson</li>
+                            <li>Drama</li>
+                            <li>2012</li>
+                        </ul> 
+                    </div>
+                </div>
 
-        <!--goodfellas-->
-        <img class="movie_cover" src="./Movie Covers/Goodfellas.jpeg">
-        <h2>Goodfellas</h2>
+                <!--no country for old men-->
+                <div class="movie_info">
+                    <img class="movie_cover" src="./Movie Covers/No Country For Old Men.jpeg">
+                    <div class="blurb">
+                        <ul>
+                            <li>No Country for Old Men</li>
+                            <li>Ethan Coen, Joel Coen</li>
+                            <li>Western/Crime/Thriller</li>
+                            <li>2007</li>
+                        </ul> 
+                    </div>
+                </div>
 
-        <!--goodfellas-->
-        <img class="movie_cover" src="./Movie Covers/The Wolf of Wall Street.jpeg">
-        <h2>The Wolf of Wall Street</h2>
+                <!--ford v ferrari-->
+                <div class="movie_info">
+                    <img class="movie_cover" src="./Movie Covers/Ford v Ferrari.jpeg">
+                    <div class="blurb">
+                        <ul>
+                            <li>Ford v Ferrari</li>
+                            <li>James Mangold</li>
+                            <li>Drama/Sport</li>
+                            <li>2019</li>
+                        </ul> 
+                    </div>
+                </div>
 
-        <!--the master-->
-        <img class="movie_cover" src="./Movie Covers/The Master.jpeg">
-        <h2>The Master</h2>
+                <!--spider-man: into the spiderverse-->
+                <div class="movie_info">
+                    <img class="movie_cover" src="./Movie Covers/Spider-Man: Into the Spider-Verse.jpeg">
+                    <div class="blurb">
+                        <ul>
+                            <li>Spider-Man: Into the Spider-Verse</li>
+                            <li>Peter Ramsey, Rodney Rothman, Bob Persichetti</li>
+                            <li>Family/Action/Superhero</li>
+                            <li>2018</li>
+                        </ul> 
+                    </div>
+                </div>
+                
+                <!--inglorious basterds-->
+                <div class="movie_info">
+                    <img class="movie_cover" src="./Movie Covers/Inglorious Basterds.jpeg">
+                    <div class="blurb">
+                        <ul>
+                            <li>Inglorious Basterds</li>
+                            <li>Quentin Tarantino</li>
+                            <li>War/Action</li>
+                            <li>2009</li>
+                        </ul> 
+                    </div>
+                </div>
 
-        <!--no country for old men-->
-        <img class="movie_cover" src="./Movie Covers/No Country For Old Men.jpeg">
-        <h2>No Country For Old Men</h2>
-
-        <!--ford v ferrari-->
-        <img class="movie_cover" src="./Movie Covers/Ford v Ferrari.jpeg">
-        <h2>Ford v Ferrari</h2>
-
-        <!--spider-man: into the spiderverse-->
-        <img class="movie_cover" src="./Movie Covers/Spider-Man: Into the Spider-Verse.jpeg">
-        <h2>Spider-Man: Into the Spider-Verse</h2>
-
-        <!--inglorious basterds-->
-        <img class="movie_cover" src="./Movie Covers/Inglorious Basterds.jpeg">
-        <h2>Inglorious Basterds</h2>
-
-
+            </div>    
+        </section>
         <!-- <table>
             <thead>
                 <tr>
@@ -193,6 +261,7 @@
                 </tr>
             </tbody>
         </table>-->
-
+        <script src="./main.js"></script>
     </body>
+    
 </html>

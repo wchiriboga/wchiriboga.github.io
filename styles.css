@@ -1,6 +1,6 @@
-* { 
+/** { 
     border: 1px solid white;
-}
+}*/
 
 html body {
     background: Black;
@@ -29,26 +29,34 @@ main h1 {
     top: 15%;
 }
 
-.blurb {
-    color: white;
-}
-
 #jumbotron {
     background-image: url("jumbotron/django.jpeg");
     background-color: black;   
     box-sizing: border-box;
-    width: 1920px;
+    width: auto;
     height: 799px;
 }
 
+.movies {
+    text-align: center;
+    color: white;
+}
+
+.container {
+    
+}
+.movie_info {
+  
+}
+
+.blurb ul {
+    
+}
 /* ratio 0.675 */ 
-.movie_cover {
-    display: block;
+.movies .movie_cover {
     width: 354.375px;
     height: 525px;
-    position: relative;
-    left: 20%;
-    margin-top: 69.84px;
+    border: 1px solid red;
 }
 
 /*.movie_trailer {
